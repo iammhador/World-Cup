@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* CSS Common Style */
+.container {
+  display: flex;
+  justify-content: center;
+}
+/* Banner Section:- Start */
+
+.banner {
+  width: 950px;
+  margin: 80px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #161616;
+  border-radius: 15px;
+}
+.banner .banner-left {
+  padding: 80px;
+}
+.banner .banner-left h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+  color: white;
+}
+.banner .banner-left p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: white;
+}
+.banner .banner-left button {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 12px;
+  background-color: #dd0000;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.banner .banner-left button a {
+  color: white;
+}
+.banner .banner-left button i {
+  margin-left: 5px;
+  color: white;
+}
+.banner .banner-right img {
+  margin-top: 40px;
+  width: 90%;
+}
+/* Banner Section:- End */
+
+/* Transfer Section:- Start */
+
+.mid-section {
+  width: 950px;
+  margin: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.mid-section .side-section {
+  height: 33%;
+  padding: 20px 35px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-color: #161616;
+}
+.mid-section .side-section button {
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+.mid-section .side-section .blog button {
+  background-color: #dd0000;
+  padding: 10px 40px;
+}
+.mid-section .side-section button a {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #161616;
+}
+.mid-section .side-section .blog button a {
+  color: #ffffff !important;
+}
+.transfers {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+.transfer {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  margin: 0px 10px 20px;
+  padding-bottom: 5px;
+}
+.transfer .transfer-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.transfer .transfer-details {
+  padding: 0 8px;
+}
+.transfer .transfer-info button {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #161616;
+  background-color: transparent;
+  border: 2px solid #797373;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin: 5px 0;
+}
+.transfer .transfer-info h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #161616;
+}
+.transfer .transfer-icon a {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgba(22, 22, 22, 0.7);
+  margin-right: 15px;
+  padding-bottom: 20px;
+}
+.transfer .transfer-icon a i {
+  color: rgba(22, 22, 22, 0.7);
+  margin-right: 5px;
+}
+.transfers .button a {
+  visibility: hidden;
+}
+/* Transfer Section:- Start */
+
+/* Upcoming Match Section:- Start */
+.upmatch-section {
+  width: 950px;
+  margin: 80px 0;
+  display: flex;
+}
+
+.upmatch-section .side-section {
+  height: 65%;
+  padding: 20px 35px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-color: #161616;
+  display: grid;
+  align-items: center;
+}
+.upmatch-section .side-section button {
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+.upmatch-section .side-section .blog button {
+  background-color: #dd0000;
+}
+.upmatch-section .side-section button a {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #161616;
+}
+.upmatch-section .side-section .blog button a {
+  color: #ffffff !important;
+  padding: 0 40px;
+}
+.matches {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+.matches .match {
+  padding: 25px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  margin: 0 10px 20px;
+}
+.matches .match-img img {
+  width: 100%;
+}
+.matches .match h3 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5px;
+  color: #161616;
+}
+.matches .match p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+  color: #161616;
+}
+/* Upcoming Match Section:- End */
+
+/* Footer Section:- Start */
+footer {
+  padding: 60px 0;
+  background-color: #161616;
+}
+footer h3 {
+  font-size: 32px;
+  line-height: 42px;
+  color: #dd0000;
+  display: flex;
+  justify-content: center;
+}
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+footer .social-links a {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0 5px;
+}
+footer .social-links a:hover {
+  color: skyblue;
+}
+footer .important-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+footer .important-links a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0 10px;
+}
+footer .important-links a:hover {
+  color: skyblue;
+}
+/* Footer Section:- End */
+
+/* ----------------
+Responsive Design 
+---------------- */
+
+/* Responsive Design For:- Mobile */
+@media screen and (max-width: 677px) {
+  .banner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .banner .banner-left h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .banner .banner-right img {
+    margin: 20px 0;
+    width: 95%;
+  }
+  .mid-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mid-section .side-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: transparent;
+  }
+  .mid-section .side-section button {
+    background-color: transparent;
+    margin: 5px 10px;
+    border: 1px solid #797373;
+  }
+  .mid-section .side-section .blog button {
+    padding: 10px 140px;
+  }
+  .transfers {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer .important-links a {
+    font-size: 8px;
+    line-height: 19px;
+  }
+  footer .social-links a {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+/* Responsive Design For:- Tablet */
+@media screen and (min-width: 678px) and (max-width: 1200px) {
+  .mid-section .side-section {
+    display: inline;
+  }
+  .mid-section {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mid-section .side-section {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    background-color: transparent;
+  }
+  .mid-section .side-section button {
+    background-color: transparent;
+    margin: 5px 10px;
+    border: 1px solid #797373;
+  }
+  .mid-section .side-section .blog button {
+    padding: 10px 120px;
+  }
+  .transfers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .transfers .button {
+    margin: 40px 0 0;
+  }
+  .transfers .button a {
+    visibility: visible;
+    padding: 8px 12px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    position: relative;
+    left: 85%;
+    color: #e8e8e8;
+    background-color: #dd0000;
+  }
+}
